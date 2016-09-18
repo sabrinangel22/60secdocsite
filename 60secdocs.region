@@ -70,23 +70,42 @@
             
             <div class="viewership">
               <h3>Viewership</h3>
-              <ul>
+              <ul class="viewership-numbers">
                 <li>
-                  <div><img src="http://indigenousmedia.com/assets/img/60secdocs/eye.png" /></div>
-                  <div><squarespace:block-field id="Viewership-Views" /></div>
-                  <div>Views</div>
+                  <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/eye.png" /></div>
+                  <div class="viewership-number"><squarespace:block-field id="Viewership-Views" /></div>
+                  <div class="viewership-label">Views</div>
                 </li>
                 <li>
-                  <div><img src="http://indigenousmedia.com/assets/img/60secdocs/bubble.png" /></div>
-                  <div><squarespace:block-field id="Viewership-Subscribers" /></div>
-                  <div>Subscribers</div>
+                  <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/bubble.png" /></div>
+                  <div class="viewership-number"><squarespace:block-field id="Viewership-Subscribers" /></div>
+                  <div class="viewership-label">Subscribers</div>
                 </li>
                 <li>
-                  <div><img src="http://indigenousmedia.com/assets/img/60secdocs/arrows.png" /></div>
-                  <div><squarespace:block-field id="Viewership-Engagement" /></div>
-                  <div>Engagement Rate</div>
+                  <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/arrows.png" /></div>
+                  <div class="viewership-number"><squarespace:block-field id="Viewership-Engagement" /></div>
+                  <div class="viewership-label">Engagement Rate</div>
                 </li>
               </ul>
+            </div>
+            
+            <div class="featured">
+              <div class="featured-doc featured-1">
+                <div class="featured-image">
+                  <squarespace:block-field id="Featured-Doc-Image-1" />
+                </div>
+                <div class="featured-info">
+                
+                </div>
+              </div>
+              <div class="featured-doc featured-2">
+                <div class="featured-image">
+                  <squarespace:block-field id="Featured-Doc-Image-2" />
+                </div>
+                <div class="featured-info">
+                
+                </div>
+              </div>
             </div>
              
             </div>
