@@ -35,88 +35,38 @@
 
       <div id="siteWrapper" class="clearfix">
 
-        <!-- Banner -->
-        {.if item}
-          <!-- nothing to see here, move along -->
-        {.or}
-          {.section collection}
-            {.equal? typeName "index"}
-              <!-- nothing to see here, move along -->
-            {.or}
-              {.if mainImage}
-              <div class="banner-thumbnail-wrapper">
-              {.section mainImage}
-                <div class="color-overlay"></div>
-                <figure id="thumbnail" class="loading content-fill"><img {@|image-meta} data-load="false" /></figure>
-              {.end}
-                <div class="desc-wrapper tmpl-loading" data-collection-id="{id}">
-                  <h1 class="page-title">{collection.title}</h1>
-                  {.section description}<div class="page-description">{@}</div>{.end}
-                </div>
-              </div>
-              {.end}
-            {.end}
-          {.end}
-        {.end}
+          <!-- Begin 60 Second Docs -->
+          <div id="sixty-sec-docs">
 
-        {.section tagFilter}
-          <p class="filter-heading filter-by-tag">
-            <a href="{collection.fullUrl}"><span>{@|safe}</span></a>
-          </p>
-        {.end}
-        {.if authorFilter}
-          <p class="filter-heading filter-by-author">
-            <a href="{collection.fullUrl}"><span>{author.displayName}</span></a>
-          </p>
-          {.section author}
-            <div class="author-profile">
-              {.if avatarAssetUrl}<div class="author-profile-image"><img src="http://static.squarespace.com/static/w/gbl/{avatarId}/?format=300w" /></div>{.end}<div class="author-profile-content">
-                <h3 class="author-profile-name"><a href="{collection.fullUrl}?author={authorId}">{displayName}</a></h3>
-                {.section location}{.if addressTitle || addressLine1 || addressLine2 || addressCountry}<p class="author-profile-location">{.end}{.if addressTitle}{addressTitle}{.end}{.if addressLine1}{.if addressTitle}, {.end}{addressLine1}{.end}{.if addressLine2}{.if addressTitle || addressLine1}, {.or}{.end}{addressLine2}{.end}{.if addressCountry}{.if addressTitle || addressLine1 || addressLine2}, {.end}{addressCountry}{.end}{.if addressTitle || addressLine1 || addressLine2 || addressCountry}</p>{.end}{.end}
-                <p class="author-profile-bio">{bio}</p>
-              </div>
-            </div>
-          {.end}
-        {.end}
-
-        <main id="page" role="main">
-          <div id="content" class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" {.equal? collection.typeName "index"}{.or}data-edit-main-image="Banner"{.end}>
-
+          <!-- Banner -->
+          {.if item}
+            <!-- nothing to see here, move along -->
+          {.or}
             {.section collection}
-              {.equal? typeName "products"}<!-- PRODUCT CATEGORY NAV -->{.section categories}
-              <div id="categoryNav">
-                <input type="checkbox" name="category-nav-toggle" id="categoryNavToggle" class="category-nav-toggle hidden" />
-                <label for="categoryNavToggle" class="category-nav-toggle-label" onclick></label>
-                <nav class="category-nav">
-                  <ul class="category-nav-links">
-                    <li class="filter"><a>Filter{.if categoryFilter}: {categoryFilter}{.end}</a></li>
-                    <li{.if categoryFilter}{.or} class="active-link all"{.end}><a href="{fullUrl}">All</a></li><!-- comment the linebreak between these two elements because science
-          -->{.repeated section @}<li{.equal? categoryFilter @} class="active-link"{.end}><a href="{fullUrl}?category={@|url-encode}">{@}</a></li><!-- comment the linebreak between these two elements because science
-          -->{.end}
-                  </ul>
-                </nav>
-              </div>
-              {.end}{.end}
-
-              {.equal? typeName "blog"}{.if tagFilter}{.or}{.if authorFilter}{.or}<!-- BLOG CATEGORY NAV -->{.section categories}
-              <div id="categoryNav">
-                <input type="checkbox" name="category-nav-toggle" id="categoryNavToggle" class="category-nav-toggle hidden" />
-                <label for="categoryNavToggle" class="category-nav-toggle-label" onclick></label>
-                <nav class="category-nav">
-                  <ul class="category-nav-links">
-                    <li class="filter"><a>Filter{.if categoryFilter}: {categoryFilter}{.end}</a></li>
-                    <li{.if categoryFilter}{.or} class="active-link all"{.end}><a href="{fullUrl}">All</a></li><!-- comment the linebreak between these two elements because science
-          -->{.repeated section @}<li{.equal? categoryFilter @} class="active-link"{.end}><a href="{fullUrl}?category={@|url-encode}">{@}</a></li><!-- comment the linebreak between these two elements because science
-          -->{.end}
-                  </ul>
-                </nav>
-              </div>
-              {.end}{.end}{.end}{.end}
+              {.equal? typeName "index"}
+                <!-- nothing to see here, move along -->
+              {.or}
+                {.if mainImage}
+                  <div class="banner-thumbnail-wrapper">
+                    {.section mainImage}
+                      <figure id="thumbnail" class="loading content-fit"><img {@|image-meta} data-load="false" /></figure>
+                    {.end}
+                  </div>
+                {.end}
+              {.end}
             {.end}
-
-           {squarespace.main-content}
-          </div>
-        </main>
+          {.end}
+        
+        
+          <main id="page" role="main">
+            <div id="content" class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" {.equal? collection.typeName "index"}{.or}data-edit-main-image="Banner"{.end}>
+<squarespace:block-field id="blockField1" columns="12"/>
+             {squarespace.main-content}
+            </div>
+          </main>
+          
+        </div> 
+        <!-- End 60 Second Docs -->
 
         <div id="preFooter">
           {@|apply pre-footer-with-custom.block}
@@ -130,12 +80,6 @@
             <squarespace:block-field id="footerBlocks" columns="12" label="Footer Content" />
           </div>
         </footer>
-
-        {.if showCart}
-        <div class="{squarespace.cart-classes} custom-cart{.section shoppingCart}{.section entries}{.or} empty{.end}{.end}">
-          <a href="{shoppingCart|cart-url}" class="custom-cart-button">Cart ({shoppingCart|cart-quantity})</a>
-        </div>
-        {.end}
 
       </div>
     </div>
