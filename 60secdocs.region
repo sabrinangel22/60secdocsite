@@ -60,7 +60,30 @@
         
           <main id="page" role="main">
             <div id="content" class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" {.equal? collection.typeName "index"}{.or}data-edit-main-image="Banner"{.end}>
-<squarespace:block-field id="blockField1" columns="12"/>
+            
+            <div class="intro">
+              <squarespace:block-field id="Intro-Text" columns="12"/>
+              <squarespace:block-field id="Intro-Video" columns="12"/>
+            </div>
+            <div class="viewership">
+              <ul>
+                <li>
+                  <div></div>
+                  <div><squarespace:block-field id="Viewership-Views" /></div>
+                  <div>Views</div>
+                </li>
+                <li>
+                  <div></div>
+                  <div><squarespace:block-field id="Viewership-Subscribers" /></div>
+                  <div>Subscribers</div>
+                </li>
+                <li>
+                  <div></div>
+                  <div><squarespace:block-field id="Viewership-Engagement" /></div>
+                  <div>Engagement Rate</div>
+                </li>
+              </ul>
+            </div>
              {squarespace.main-content}
             </div>
           </main>
