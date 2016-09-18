@@ -49,7 +49,7 @@
                 {.if mainImage}
                   <div class="banner-thumbnail-wrapper">
                     {.section mainImage}
-                      <figure id="thumbnail" class="loading content-fit"><img {@|image-meta} data-load="false" /></figure>
+                      <img src="{assetUrl}?format=original" />
                     {.end}
                   </div>
                 {.end}
@@ -62,23 +62,27 @@
             <div id="content" class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" {.equal? collection.typeName "index"}{.or}data-edit-main-image="Banner"{.end}>
             
             <div class="intro">
-              <squarespace:block-field id="Intro-Text" columns="12"/>
+              <div class="intro-text">
+                <squarespace:block-field id="Intro-Text" columns="12"/>
+              </div>
               <squarespace:block-field id="Intro-Video" columns="12"/>
             </div>
+            
             <div class="viewership">
+              <h3>Viewership</h3>
               <ul>
                 <li>
-                  <div></div>
+                  <div><img src="http://indigenousmedia.com/assets/img/60secdocs/eye.png" /></div>
                   <div><squarespace:block-field id="Viewership-Views" /></div>
                   <div>Views</div>
                 </li>
                 <li>
-                  <div></div>
+                  <div><img src="http://indigenousmedia.com/assets/img/60secdocs/bubble.png" /></div>
                   <div><squarespace:block-field id="Viewership-Subscribers" /></div>
                   <div>Subscribers</div>
                 </li>
                 <li>
-                  <div></div>
+                  <div><img src="http://indigenousmedia.com/assets/img/60secdocs/arrows.png" /></div>
                   <div><squarespace:block-field id="Viewership-Engagement" /></div>
                   <div>Engagement Rate</div>
                 </li>
