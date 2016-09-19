@@ -110,7 +110,7 @@
               
               <div class="audience">
                 <h3>Audience</h3>
-                <ul class="viewership-numbers">
+                <ul>
                   <li>
                     <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/male.png" /></div>
                     <div class="viewership-number"><squarespace:block-field id="Audience-Gender" />55%</div>
@@ -118,11 +118,11 @@
                   </li>
                   <li>
                     <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/mobile.png" /></div>
-                    <div class="viewership-label">Mobile First</div>
+                    <div class="viewership-label solo">Mobile First</div>
                   </li>
                   <li>
                     <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/world.png" /></div>
-                    <div class="viewership-label">USA Audience</div>
+                    <div class="viewership-label solo">USA Audience</div>
                   </li>
                   <li>
                     <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/people.png" /></div>
@@ -134,6 +134,13 @@
               
               <div class="facebook-videos">
               
+              </div>
+              
+              <div class="as-seen-on">
+                <h3>As Seen On</h3>
+                <div class="press">
+                  <squarespace:block-field id="Press" />
+                </div>
               </div>
              
             </div>
