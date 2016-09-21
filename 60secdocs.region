@@ -95,7 +95,20 @@
                     <squarespace:block-field id="Featured-Doc-Image-1" />
                   </div>
                   <div class="featured-info">
-
+                    <div class="featured-views">
+                      <div class="featured-info-icon"><img src="assets/img/60secdocs/eye-white.png" /></div>
+                      <div class="featured-info-stats">
+                        <div class="featured-info-stat"><squarespace:block-field id="Featured-Doc-Views-1" /></div>
+                        <div class="featured-info-subtitle">views</div>
+                      </div>
+                    </div>
+                    <div class="featured-actions">
+                      <div class="featured-info-icon"><img src="assets/img/60secdocs/bubble-white.png" /></div>
+                      <div class="featured-info-stats">
+                        <div class="featured-info-stat"><squarespace:block-field id="Featured-Doc-Actions-1" /></div>
+                        <div class="featured-info-subtitle">Likes, Shares & Comments</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="featured-doc featured-2">
@@ -103,7 +116,20 @@
                     <squarespace:block-field id="Featured-Doc-Image-2" />
                   </div>
                   <div class="featured-info">
-
+                    <div class="featured-views">
+                      <div class="featured-info-icon"><img src="assets/img/60secdocs/eye-white.png" /></div>
+                      <div class="featured-info-stats">
+                        <div class="featured-info-stat"><squarespace:block-field id="Featured-Doc-Actions-1" /></div>
+                        <div class="featured-info-subtitle">Views</div>
+                      </div>
+                    </div>
+                    <div class="featured-actions">
+                      <div class="featured-info-icon"><img src="assets/img/60secdocs/bubble-white.png" /></div>
+                      <div class="featured-info-stats">
+                        <div class="featured-info-stat"><squarespace:block-field id="Featured-Doc-Actions-1" /></div>
+                        <div class="featured-info-subtitle">Likes, Shares & Comments</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -162,6 +188,7 @@
 
         <footer id="footer" role="contentinfo">
           <div class="footer-inner">
+            <a href="http://www.indigenousmedia.com"><img src="assets/img/60secdocs/im_logo.jpg" /></a>
             <div class="nav-wrapper back-to-top-nav"><nav><div class="back-to-top"><a href="#header">Back to Top</a></div></nav></div>
             <squarespace:navigation navigationId="secondaryNav" template="secondary-navigation" />
             {.if website.location.addressTitle || website.location.addressLine1 || website.location.addressLine2 || website.location.addressCountry}<div id="siteInfo">{.or}{.if websiteSettings.contactPhoneNumber || websiteSettings.contactEmail}<div id="siteInfo">{.end}{.end}{.section website}{.section location}{.if addressTitle || addressLine1 || addressLine2 || addressCountry}<span class="site-address">{.end}{.if addressTitle}{addressTitle}{.end}{.if addressLine1}{.if addressTitle}, {.end}{addressLine1}{.end}{.if addressLine2}{.if addressTitle || addressLine1}, {.or}{.end}{addressLine2}{.end}{.if addressCountry}{.if addressTitle || addressLine1 || addressLine2}, {.end}{addressCountry}{.end}{.if addressTitle || addressLine1 || addressLine2 || addressCountry}</span>{.end}{.end}{.end}{.section websiteSettings}{.if contactPhoneNumber}<span rel="tel" class="site-phone">{contactPhoneNumber}</span>{.end}{.if contactEmail}<a href="mailto:{contactEmail}" class="site-email">{contactEmail}</a>{.end}{.end}{.if website.location.addressTitle || website.location.addressLine1 || website.location.addressLine2 || website.location.addressCountry}</div>{.or}{.if websiteSettings.contactPhoneNumber || websiteSettings.contactEmail}</div>{.end}{.end}
