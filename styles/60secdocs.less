@@ -145,9 +145,40 @@
     }
   }
   
+  @media (max-width: 768px) {
+    .featured {
+      flex-direction: column;
+    }
+  }
+  
   .facebook-videos {
     padding: 50px 0;
     background-color: #fff;
+    text-align: center;
+    
+    #facebook-videos-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 965px;
+      max-height: 300px;
+      overflow: hidden;
+      margin: 0 auto;
+      justify-content: center;
+      
+      .fb-video {
+        margin: 0px 15px 15px;
+      }
+    }
+    
+    a.load-more {
+      display: none;
+      font-family: @main-font;
+      font-size: 16px;
+      border: 3px #747474 solid;
+      padding: 10px 40px;
+      margin-top: 20px;
+    }
   }
   
   .audience {

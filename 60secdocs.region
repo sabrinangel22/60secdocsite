@@ -158,8 +158,12 @@
                 </ul>
               </div>
               
-              <div class="facebook-videos">
-              
+              <div class="facebook-videos" id="facebook-videos">
+                <p class="fb-loading">Loading...</p>
+                <div id="facebook-videos-container">
+                
+                </div>
+                <a class="load-more" href="#">LOAD MORE</a>
               </div>
               
               <div class="as-seen-on">
@@ -208,6 +212,8 @@
     <squarespace:script src="site.js" combo="true" />
     <squarespace:script src="helpers.js" combo="true" />
     <squarespace:script src="authenticated.js" combo="true" />
+    <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+    <squarespace:script src="fb.js" combo="true" />
 
     {squarespace-footers}
 
