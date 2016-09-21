@@ -119,14 +119,14 @@
                     <div class="featured-views">
                       <div class="featured-info-icon"><img src="assets/img/60secdocs/eye-white.png" /></div>
                       <div class="featured-info-stats">
-                        <div class="featured-info-stat"><squarespace:block-field id="Featured-Doc-Actions-1" /></div>
+                        <div class="featured-info-stat"><squarespace:block-field id="Featured-Doc-Views-2" /></div>
                         <div class="featured-info-subtitle">Views</div>
                       </div>
                     </div>
                     <div class="featured-actions">
                       <div class="featured-info-icon"><img src="assets/img/60secdocs/bubble-white.png" /></div>
                       <div class="featured-info-stats">
-                        <div class="featured-info-stat"><squarespace:block-field id="Featured-Doc-Actions-1" /></div>
+                        <div class="featured-info-stat"><squarespace:block-field id="Featured-Doc-Actions-2" /></div>
                         <div class="featured-info-subtitle">Likes, Shares & Comments</div>
                       </div>
                     </div>
