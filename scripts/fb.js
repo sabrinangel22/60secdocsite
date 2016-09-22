@@ -12,7 +12,7 @@ window.fbAsyncInit = function() {
       $("a.load-more").css("display", "inline-block");
       if (response && !response.error) {
         $.each(response.data, function( index, value ) {
-          $("#facebook-videos-container").append('<div class="fb-video"><a href="https://www.facebook.com/60SecDocs/videos/'+value.id+'" target="_blank"><img src="http://graph.facebook.com/'+value.id+'/picture" /></a></div>');
+          $("#facebook-videos-container").append('<div class="fb-video"><a href="https://www.facebook.com/60SecDocs/videos/'+value.id+'" target="_blank"><img src="https://graph.facebook.com/'+value.id+'/picture?width=500&height=500&access_token=1781519975439910|50ca548c3eb6af45e1812ea315bd658b" /></a></div>');
         });
       }
     }

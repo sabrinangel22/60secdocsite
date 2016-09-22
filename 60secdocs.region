@@ -184,6 +184,9 @@
           </main>
           
         </div> 
+        <div class="email-form">
+          <squarespace:block-field id="Email-Form" />
+        </div>
         <!-- End 60 Second Docs -->
 
         <div id="preFooter">
