@@ -72,17 +72,17 @@
                 <h3>Viewership</h3>
                 <ul class="viewership-numbers">
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/eye.png" /></div>
+                    <div class="viewership-icon"><img src="assets/img/60secdocs/eye.png" width="84" height="59" /></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Views" /></div>
                     <div class="viewership-label">Views</div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/bubble.png" /></div>
+                    <div class="viewership-icon"><img src="assets/img/60secdocs/bubble.png" width="75" height="68" /></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Subscribers" /></div>
                     <div class="viewership-label">Subscribers</div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/arrows.png" /></div>
+                    <div class="viewership-icon"><img src="assets/img/60secdocs/arrows.png" width="79" height="50" /></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Engagement" /></div>
                     <div class="viewership-label">Engagement Rate</div>
                   </li>
@@ -138,20 +138,20 @@
                 <h3>Audience</h3>
                 <ul>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/male.png" /></div>
+                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/male.png" width="71" height="72" /></div>
                     <div class="viewership-number"><squarespace:block-field id="Audience-Gender" />55%</div>
                     <div class="viewership-label">Male</div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/mobile.png" /></div>
+                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/mobile.png" width="51" height="81" /></div>
                     <div class="viewership-label solo">Mobile First</div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/world.png" /></div>
+                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/world.png" width="77" height="77" /></div>
                     <div class="viewership-label solo">USA Audience</div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/people.png" /></div>
+                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/people.png" width="62" height="82" /></div>
                     <div class="viewership-number"><squarespace:block-field id="Audience-Demo" />18-24</div>
                     <div class="viewership-label">Age Demo</div>
                   </li>
@@ -205,6 +205,10 @@
 
       </div>
     </div>
+    
+    <div id="fb-video-popup">
+      <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F60SecDocs%2Fvideos%2F1646633698982788%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+    </div>
 
     <squarespace:script src="no-yui.js" combo="true" />
     <squarespace:script src="no-hover-on-scroll.js" combo="true" />
@@ -216,6 +220,7 @@
     <squarespace:script src="helpers.js" combo="true" />
     <squarespace:script src="authenticated.js" combo="true" />
     <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+    <squarespace:script src="jquery.modal.min.js" />
     <squarespace:script src="fb.js" combo="true" />
 
     {squarespace-footers}

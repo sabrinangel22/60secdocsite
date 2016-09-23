@@ -12,7 +12,18 @@ window.fbAsyncInit = function() {
       $("a.load-more").css("display", "inline-block");
       if (response && !response.error) {
         $.each(response.data, function( index, value ) {
-          $("#facebook-videos-container").append('<div class="fb-video"><a href="https://www.facebook.com/60SecDocs/videos/'+value.id+'" target="_blank"><img src="https://graph.facebook.com/'+value.id+'/picture?width=500&height=500&access_token=1781519975439910|50ca548c3eb6af45e1812ea315bd658b" /></a></div>');
+          if(value.id !== '1620510634928428') {
+            $("#facebook-videos-container").append('<div class="fb-video"><a href="#fb-video-popup" class="fb-popup" data-fb-id="'+value.id+'"><img src="https://graph.facebook.com/'+value.id+'/picture?width=500&height=500&access_token=1781519975439910|50ca548c3eb6af45e1812ea315bd658b" /></a></div>');
+          }
+        });
+        
+        $('a.fb-popup').click( function(e) {
+          e.preventDefault();
+          $('<div class="modal"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F60SecDocs%2Fvideos%2F'+$(this).data('fb-id')+'%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div>').appendTo('body').modal();
+          $("a.close-modal").click(function(e) {
+            e.preventDefault();
+            $.modal.close();
+          });
         });
       }
     }
