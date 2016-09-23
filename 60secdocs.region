@@ -92,7 +92,9 @@
               <div class="featured">
                 <div class="featured-doc featured-1">
                   <div class="featured-image">
-                    <squarespace:block-field id="Featured-Doc-Image-1" />
+                    <a class="fb-popup" data-fb-id="1618484115131080">
+                      <squarespace:block-field id="Featured-Doc-Image-1" />
+                    </a>
                   </div>
                   <div class="featured-info">
                     <div class="featured-views">
@@ -113,7 +115,9 @@
                 </div>
                 <div class="featured-doc featured-2">
                   <div class="featured-image">
-                    <squarespace:block-field id="Featured-Doc-Image-2" />
+                    <a class="fb-popup" data-fb-id="1624321091214049">
+                      <squarespace:block-field id="Featured-Doc-Image-2" />
+                    </a>
                   </div>
                   <div class="featured-info">
                     <div class="featured-views">
