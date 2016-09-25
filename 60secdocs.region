@@ -183,6 +183,15 @@
                   <squarespace:block-field id="Links" />
                 </div>
               </div>
+              
+              <div class="social-like">
+                <div class="fb-like-container">
+                  <div class="fb-like" data-href="https://www.facebook.com/60SecDocs" data-width="150" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+                </div>
+                <div class="yt-subscribe-container">
+                  <div class="g-ytsubscribe" data-channelid="UCYsWPPZMhfI9EddYpPe6CYw" data-layout="full" data-count="default"></div>
+                </div>
+              </div>
              
             </div>
           </main>
@@ -226,6 +235,7 @@
     <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
     <squarespace:script src="jquery.modal.min.js" />
     <squarespace:script src="fb.js" combo="true" />
+    <script src="https://apis.google.com/js/platform.js"></script>
 
     {squarespace-footers}
 
