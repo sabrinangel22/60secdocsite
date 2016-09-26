@@ -222,6 +222,20 @@
     <div id="fb-video-popup">
       <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F60SecDocs%2Fvideos%2F1646633698982788%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
     </div>
+    
+    <div id="exit-popup">
+      <div class="exit-popup-email">
+        <squarespace:block-field id="Exit-Email-Form" />
+      </div>
+      <div class="social-like">
+        <div class="fb-like-container">
+          <div class="fb-like" data-href="https://www.facebook.com/60SecDocs" data-width="150" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+        </div>
+        <div class="yt-subscribe-container">
+          <div class="g-ytsubscribe" data-channelid="UCYsWPPZMhfI9EddYpPe6CYw" data-layout="full" data-count="default"></div>
+        </div>
+      </div>
+    </div>
 
     <squarespace:script src="no-yui.js" combo="true" />
     <squarespace:script src="no-hover-on-scroll.js" combo="true" />
