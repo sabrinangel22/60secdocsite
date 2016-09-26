@@ -36,6 +36,21 @@ window.fbAsyncInit = function() {
       $("#facebook-videos-container").css("max-height", "none");
       $(this).hide();
     });
+    
+    $(".links a, .press a").click( function(e) {
+      console.log("CLICK");
+      if (document.cookie.replace(/(?:(?:^|.*;\s*)sixtysecdocs\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+        $('#exit-popup').modal();
+        $('#exit-popup').css('display', 'inline-block');
+        $("a.close-modal").click(function(e) {
+          e.preventDefault();
+          $.modal.close();
+        });
+        document.cookie = "sixtysecdocs=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+      } else {
+        console.log("NOT TRUE");
+      }
+    });
   });
 };
 
