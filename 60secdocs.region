@@ -72,17 +72,17 @@
                 <h3>Viewership</h3>
                 <ul class="viewership-numbers">
                   <li>
-                    <div class="viewership-icon"><img src="assets/img/60secdocs/eye.png" width="84" height="59" /></div>
+                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon" /><!--<img src="assets/img/60secdocs/eye.png" width="84" height="59" />--></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Views" /></div>
                     <div class="viewership-label"><squarespace:block-field id="Viewership-Txt" /></div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="assets/img/60secdocs/bubble.png" width="75" height="68" /></div>
+                    <div class="viewership-icon"><squarespace:block-field id="Subscribers-Icon" /><!--<img src="assets/img/60secdocs/bubble.png" width="75" height="68" />--></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Subscribers" /></div>
                     <div class="viewership-label"><squarespace:block-field id="Subscribers-Txt" /></div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="assets/img/60secdocs/arrows.png" width="79" height="50" /></div>
+                    <div class="viewership-icon"><squarespace:block-field id="Engagement-Icon" /><!--<img src="assets/img/60secdocs/arrows.png" width="79" height="50" />--></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Engagement" /></div>
                     <div class="viewership-label"><squarespace:block-field id="Engagement-Txt" /></div>
                   </li>
