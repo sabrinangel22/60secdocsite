@@ -72,17 +72,17 @@
                 <h3>Viewership</h3>
                 <ul class="viewership-numbers">
                   <li>
-                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon" /><!--<img src="assets/img/60secdocs/eye.png" width="84" height="59" />--></div>
+                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon" /></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Views" /></div>
                     <div class="viewership-label"><squarespace:block-field id="Viewership-Txt" /></div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><squarespace:block-field id="Subscribers-Icon" /><!--<img src="assets/img/60secdocs/bubble.png" width="75" height="68" />--></div>
+                    <div class="viewership-icon"><squarespace:block-field id="Subscribers-Icon" /></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Subscribers" /></div>
                     <div class="viewership-label"><squarespace:block-field id="Subscribers-Txt" /></div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><squarespace:block-field id="Engagement-Icon" /><!--<img src="assets/img/60secdocs/arrows.png" width="79" height="50" />--></div>
+                    <div class="viewership-icon"><squarespace:block-field id="Engagement-Icon" /></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Engagement" /></div>
                     <div class="viewership-label"><squarespace:block-field id="Engagement-Txt" /></div>
                   </li>
@@ -142,21 +142,21 @@
                 <h3>Audience</h3>
                 <ul>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/male.png" width="71" height="72" /></div>
-                    <div class="viewership-number"><squarespace:block-field id="Audience-Gender" />55%</div>
+                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-1" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/male.png" width="71" height="72" />--></div>
+                    <div class="viewership-number"><squarespace:block-field id="Viewership-Caption-1" />55%</div>
                     <div class="viewership-label">Male</div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/mobile.png" width="51" height="81" /></div>
-                    <div class="viewership-label solo">Mobile First</div>
+                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-2" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/mobile.png" width="51" height="81" />--></div>
+                    <div class="viewership-label solo"><squarespace:block-field id="Viewership-Caption-2" />Mobile First</div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/world.png" width="77" height="77" /></div>
-                    <div class="viewership-label solo">USA Audience</div>
+                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-3" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/world.png" width="77" height="77" />--></div>
+                    <div class="viewership-label solo"><squarespace:block-field id="Viewership-Caption-3" />USA Audience</div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><img src="http://indigenousmedia.com/assets/img/60secdocs/people.png" width="62" height="82" /></div>
-                    <div class="viewership-number"><squarespace:block-field id="Audience-Demo" />18-24</div>
+                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-4" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/people.png" width="62" height="82" />--></div>
+                    <div class="viewership-number"><squarespace:block-field id="Viewership-Caption-4" />18-24</div>
                     <div class="viewership-label">Age Demo</div>
                   </li>
                 </ul>
