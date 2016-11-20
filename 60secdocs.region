@@ -143,20 +143,20 @@
                 <ul>
                   <li>
                     <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-1" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/male.png" width="71" height="72" />--></div>
-                    <div class="viewership-number"><squarespace:block-field id="Viewership-Caption-1" />55%</div>
+                    <div class="viewership-number"><squarespace:block-field id="Viewership-Caption-1" /></div>
                     <div class="viewership-label">Male</div>
                   </li>
                   <li>
                     <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-2" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/mobile.png" width="51" height="81" />--></div>
-                    <div class="viewership-label solo"><squarespace:block-field id="Viewership-Caption-2" />Mobile First</div>
+                    <div class="viewership-label solo"><squarespace:block-field id="Viewership-Caption-2" /></div>
                   </li>
                   <li>
                     <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-3" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/world.png" width="77" height="77" />--></div>
-                    <div class="viewership-label solo"><squarespace:block-field id="Viewership-Caption-3" />USA Audience</div>
+                    <div class="viewership-label solo"><squarespace:block-field id="Viewership-Caption-3" /></div>
                   </li>
                   <li>
                     <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-4" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/people.png" width="62" height="82" />--></div>
-                    <div class="viewership-number"><squarespace:block-field id="Viewership-Caption-4" />18-24</div>
+                    <div class="viewership-number"><squarespace:block-field id="Viewership-Caption-4" /></div>
                     <div class="viewership-label">Age Demo</div>
                   </li>
                 </ul>
