@@ -144,7 +144,7 @@
                   <li>
                     <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-1" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/male.png" width="71" height="72" />--></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Caption-1" /></div>
-                    <div class="viewership-label"><squarespace:block-field id="Viewership-Caption-1a" />Male</div>
+                    <div class="viewership-label"><squarespace:block-field id="Viewership-Caption-1a" /></div>
                   </li>
                   <li>
                     <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-2" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/mobile.png" width="51" height="81" />--></div>
@@ -157,7 +157,7 @@
                   <li>
                     <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-4" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/people.png" width="62" height="82" />--></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Caption-4" /></div>
-                    <div class="viewership-label"><squarespace:block-field id="Viewership-Caption-4a" />Age Demo</div>
+                    <div class="viewership-label"><squarespace:block-field id="Viewership-Caption-4a" /></div>
                   </li>
                 </ul>
               </div>
