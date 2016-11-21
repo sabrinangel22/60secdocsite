@@ -56,11 +56,11 @@
               {.end}
             {.end}
           {.end}
-        
-        
+
+
           <main id="page" role="main">
             <div id="content" class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" {.equal? collection.typeName "index"}{.or}data-edit-main-image="Banner"{.end}>
-            
+
               <div class="intro">
                 <div class="intro-text">
                   <squarespace:block-field id="Intro-Text" columns="12"/>
@@ -137,15 +137,10 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="audience">
                 <h3>Audience</h3>
                 <ul>
-                  <li>
-                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-1" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/male.png" width="71" height="72" />--></div>
-                    <div class="viewership-number"><squarespace:block-field id="Viewership-Caption-1" /></div>
-                    <div class="viewership-label"><squarespace:block-field id="Viewership-Caption-1a" /></div>
-                  </li>
                   <li>
                     <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon-2" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/mobile.png" width="51" height="81" />--></div>
                     <div class="viewership-label solo"><squarespace:block-field id="Viewership-Caption-2" /></div>
@@ -161,29 +156,29 @@
                   </li>
                 </ul>
               </div>
-              
+
               <div class="facebook-videos" id="facebook-videos">
                 <p class="fb-loading">Loading...</p>
                 <div id="facebook-videos-container">
-                
+
                 </div>
                 <a class="load-more" href="#">WATCH MORE</a>
               </div>
-              
+
               <div class="as-seen-on">
                 <h3>As Seen On</h3>
                 <div class="press">
                   <squarespace:block-field id="Press" />
                 </div>
               </div>
-              
+
               <div class="watch-on">
                 <h3>Watch 60 Second Docs</h3>
                 <div class="links">
                   <squarespace:block-field id="Links" />
                 </div>
               </div>
-              
+
               <div class="social-like">
                 <div class="fb-like-container">
                   <div class="fb-like" data-href="https://www.facebook.com/60SecDocs" data-width="150" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
@@ -192,11 +187,11 @@
                   <div class="g-ytsubscribe" data-channelid="UCYsWPPZMhfI9EddYpPe6CYw" data-layout="full" data-count="default"></div>
                 </div>
               </div>
-             
+
             </div>
           </main>
-          
-        </div> 
+
+        </div>
         <div class="email-form">
           <squarespace:block-field id="Email-Form" />
         </div>
@@ -218,11 +213,11 @@
 
       </div>
     </div>
-    
+
     <div id="fb-video-popup">
       <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F60SecDocs%2Fvideos%2F1646633698982788%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
     </div>
-    
+
     <div id="exit-popup" class="modal">
       <div class="exit-popup-email">
         <squarespace:block-field id="Exit-Email-Form" />
