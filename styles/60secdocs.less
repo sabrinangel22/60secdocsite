@@ -335,7 +335,11 @@ html {
 
       @media (max-width: 768px) {
         & {
-          flex-direction: column;
+          flex-direction: row;
+          flex-wrap: wrap;
+          float: none !important;
+          width: 300px !important;
+          margin: 0 auto;
         }
       }
 
@@ -346,6 +350,8 @@ html {
         @media (max-width: 768px) {
           & {
             margin-bottom: 30px;
+            padding: 17px;
+            width: 50px;
           }
         }
       }
