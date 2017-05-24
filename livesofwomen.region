@@ -43,7 +43,7 @@
 
           <main id="page" role="main">
             <div id="content" class="main-content" data-content-field="main-content" data-collection-id="{collection.id}" {.equal? collection.typeName "index"}{.or}data-edit-main-image="Banner"{.end}>
-              <div class="header">
+              <div class="header-low">
                 <div class="header-container row">
                   <div class="one column">&nbsp;</div>
                   <div class="eleven columns">
