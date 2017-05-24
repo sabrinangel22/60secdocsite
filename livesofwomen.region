@@ -7,7 +7,6 @@
     {.end}
     {squarespace-headers}
     <script>/* Must be below {squarespace-headers} */(function(){var touchTest="ontouchstart"in window||navigator.msMaxTouchPoints;if(!touchTest){with(document.documentElement){className=className.replace(new RegExp("touch-styles"),"")}}})()</script>
-    <script src="scripts/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <link rel="stylesheet" href="styles/normalize.min.css">
     <link rel="stylesheet" href="styles/skeleton.css">
   </head>
@@ -103,9 +102,6 @@
           </main>
 
         </div>
-        <div class="email-form">
-          <squarespace:block-field id="Email-Form" />
-        </div>
         <!-- End 60 Second Docs -->
 
         <div id="preFooter">
@@ -136,6 +132,7 @@
     <squarespace:script src="authenticated.js" combo="true" />
     <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
     <script src="https://apis.google.com/js/platform.js"></script>
+    <script src="scripts/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
     {squarespace-footers}
 
