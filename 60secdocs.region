@@ -86,6 +86,11 @@
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Engagement" /></div>
                     <div class="viewership-label"><squarespace:block-field id="Engagement-Txt" /></div>
                   </li>
+                  <li>
+                    <div class="viewership-icon"><squarespace:block-field id="Organic-Icon" /></div>
+                    <div class="viewership-number"><squarespace:block-field id="Viewership-Organic" /></div>
+                    <div class="viewership-label"><squarespace:block-field id="Organic-Txt" /></div>
+                  </li>
                 </ul>
               </div>
 
