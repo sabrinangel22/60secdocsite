@@ -72,9 +72,9 @@
                 <h3>Viewership</h3>
                 <ul class="viewership-numbers">
                   <li>
-                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon" /></div>
-                    <div class="viewership-number"><squarespace:block-field id="Viewership-Views" /></div>
-                    <div class="viewership-label"><squarespace:block-field id="Viewership-Txt" /></div>
+                    <div class="viewership-icon"><squarespace:block-field id="Viewership-Icon2" /></div>
+                    <div class="viewership-number"><squarespace:block-field id="Viewership-Views2" /></div>
+                    <div class="viewership-label"><squarespace:block-field id="Viewership-Txt2" /></div>
                   </li>
                   <li>
                     <div class="viewership-icon"><squarespace:block-field id="Subscribers-Icon" /></div>
