@@ -87,7 +87,7 @@
                     <div class="viewership-label"><squarespace:block-field id="Engagement-Txt" /></div>
                   </li>
                   <li>
-                    <div class="viewership-icon"><squarespace:block-field id="Organic-Icon" /></div>
+                    <div class="viewership-icon"><squarespace:block-field id="Organic-Icon" /><!--<img src="http://indigenousmedia.com/assets/img/60secdocs/mobile.png" width="51" height="81" />--></div>
                     <div class="viewership-number"><squarespace:block-field id="Viewership-Organic" /></div>
                     <div class="viewership-label"><squarespace:block-field id="Organic-Txt" /></div>
                   </li>
